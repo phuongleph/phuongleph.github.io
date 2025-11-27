@@ -1,0 +1,153 @@
+{
+    "general": {
+        "name": "Le P. H. Phuong",
+        "avatar": "/avtresume.png",
+        "about": [
+            "Hey there! 👋👋",
+            "I am a final-year Computer Science student eager to start my career as an intern or fresher. With a strong foundation in business analysis and data-driven problem solving, I have hands-on experience in projects ranging from customer experience analytics to financial trend prediction using machine learning.",
+            "Skilled in Python, SQL, Tableau, and AI frameworks such as PyTorch and TensorFlow, I am passionate about applying both analytical and technical skills to support business growth and explore innovative AI solutions."
+        ],
+        "socials": {
+            "email": "phuongleph.work@mail.com",
+            "linkedin": "www.linkedin.com/in/phuongleph",
+            "github": "https://github.com/phuongleph"
+        }
+    },
+    "resume": [{
+            "title": "Business Analyst",
+            "file": "/resume/LePhamHoangPhuong_BusinessAnalyst_CV.pdf",
+            "label": "Business Analyst with strong requirement analysis and data-driven problem-solving skills, experienced in workflow optimization and customer insights.",
+            "logo": "/business-analyst.png"
+        },
+        {
+            "title": "AI Engineer",
+            "file": "/resume/LePhamHoangPhuong_AIEngineer_CV.pdf",
+            "label": "AI Engineer skilled in ML/DL, data pipelines, and building multimodal prediction systems with real-world performance validation.",
+            "logo": "/cognition.png"
+        }
+    ],
+    "experiences": [{
+        "title": "Business Development Executive",
+        "company": "Shinhan Finance Vietnam",
+        "href": "",
+        "startDate": "April, 2024",
+        "endDate": "June, 2025",
+        "description": "Delivered end‑to‑end business and client support by managing customer data, optimizing loan processes, and driving workflow improvements to enhance efficiency, compliance, and customer retention.",
+        "logo": "/logos/shinhanlogo.png",
+        "skills": ["Analysis", "Stakeholder", "Management"]
+    }],
+
+    "education": [{
+        "subject": "Computer Science",
+        "degree": "Bachelor of Science",
+        "university": "Ton Duc Thang University",
+        "href": "",
+        "startDate": "October, 2021",
+        "endDate": "April, 2026",
+        "logo": "/logos/logotdt.png"
+    }],
+    "skills": [{
+            "name": "Python",
+            "logo": "/logos/skills/python-logo.png",
+            "href": ""
+        },
+        {
+            "name": "Java",
+            "logo": "/logos/skills/Java_logo.svg.png",
+            "href": ""
+        }, {
+            "name": "C#",
+            "logo": "/logos/skills/Csharp-logo.png",
+            "href": ""
+        }, {
+            "name": "SQL",
+            "logo": "/logos/skills/sql__logo.png",
+            "href": ""
+        }, {
+            "name": "HTML",
+            "logo": "/logos/skills/HTML5_logo.png",
+            "href": ""
+        },
+        {
+            "name": "CSS",
+            "logo": "/logos/skills/CSS3_logo.png",
+            "href": ""
+        }, {
+            "name": "Bootstrap",
+            "logo": "/logos/skills/bootstrap-logo1.png",
+            "href": ""
+        }, {
+            "name": "Postman",
+            "logo": "/logos/skills/postman-icon.svg",
+            "href": ""
+        }, {
+            "name": "Power BI",
+            "logo": "/logos/skills/powerbi-logo.svg.png",
+            "href": ""
+        }, {
+            "name": "Tableau",
+            "logo": "/logos/skills/Tableau-Symbol.png",
+            "href": ""
+        }, {
+            "name": "Figma",
+            "logo": "/logos/skills/Figma-logo.png",
+            "href": ""
+        }, {
+            "name": "Jira",
+            "logo": "/logos/skills/jira-logo.svg",
+            "href": ""
+        },
+        {
+            "name": "Draw.io",
+            "logo": "/logos/skills/drawio-logo.png",
+            "href": ""
+        },
+        {
+            "name": "PyTorch",
+            "logo": "/logos/skills/pytorch-logo1.png",
+            "href": ""
+        },
+        {
+            "name": "TensorFlow",
+            "logo": "/logos/skills/tensorflow.png",
+            "href": ""
+        },
+        {
+            "name": "Sciki-learn",
+            "logo": "/logos/skills/scikit_learn_logo_small.svg.png",
+            "href": ""
+        },
+        {
+            "name": "Pandas",
+            "logo": "/logos/skills/Pandas_logo1.svg.png",
+            "href": ""
+        },
+        {
+            "name": "Numpy",
+            "logo": "/logos/skills/numpy_logo.png",
+            "href": ""
+        }
+    ],
+    "projects": [{
+            "name": "Multimodal Financial Trend Prediction with ROI Analysis",
+            "framework": "Python, PyTorch ,Transformers, Scikit-learn, Pandas, NumPy, DQN Agents, Matplotlib.",
+            "description": "Fusion model combining FinBERT, Transformer, and ATT-CNN LSTM has been trained for multi‑modal crypto trend prediction. Next step: preparing the Reinforcement Learning environment and designing the RL Agent to optimize trading ROI.",
+            "href": "https://github.com/phuongleph/Multimodal-Financial-Trend-Prediction-with-ROI-Analysis",
+            "image": "/projects/architect.png"
+        },
+        {
+            "name": " E-commerce Customer Experience Analytics",
+            "framework": "Python (Scikit-learn), SQL, Tableau, Streamlit, ETL",
+            "description": "ShopWorld, a fast-growing e-commerce firm, faces challenges in customer engagement, personalized services, and operational efficiency due to competition. To solve this, the company invested in a robust Business Intelligence (BI) system : Descriptive, Predictive, Prescriptive",
+            "href": "https://github.com/phuongleph/E-commerce-Business-Using-Analytics-to-Enhance-Customer-Experience",
+            "image": "/projects/project2.png"
+        },
+        {
+            "name": "Point of Sale (POS) Web Application for Phone Retail Store",
+            "framework": "Node.js, Express.js, MongoDB, RESTful API, Postman, HTML/CSS, Bootstrap.",
+            "description": "Built a Full-Stack POS system with Node.js/Express and MongoDB, delivering real-time inventory tracking, fast transaction processing, and an admin dashboard for actionable business insights.",
+            "href": "",
+            "image": "/projects/posweb.png"
+        }
+    ]
+}
