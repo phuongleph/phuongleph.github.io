@@ -1,19 +1,29 @@
 import React from "react";
 
 const Credits = (props) => {
-        return (
+    return (
         <div data-section id='credits' className='group mt-32'>
-            <div className='text-surface-600'>
-                <div className='mb-4'>
-                    This website was built using a <a href="https://github.com/karlgrossmann/two-column-portfolio" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">template</a> by <a href="https://karlgrossmann.com" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Karl Grossmann</a> using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Next.js</a> and 
-                    <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500"> Tailwind CSS</a>. 
-                    The inspiration for the design comes from <a href="https://www.sarahdayan.dev" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Sarah Dayan </a> 
-                    and <a href="https://brittanychiang.com" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Brittany Chiang</a>. 
+            <div className='text-surface-600 text-sm md:text-base space-y-6'>
+                <div className='leading-relaxed'>
+                    I'm always open to new opportunities, collaborations, or just a friendly chat.
                 </div>
-                <div className='flex flex-row justify-between'>
-                    <a href="/imprint" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">Imprint</a>
-                    <a href="/privacy" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">Privacy Statement</a>
-                    <span>{props.data.name} | 2023</span>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-surface-700'>
+                    <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Name</div>
+                        <span>Le Pham Hoang Phuong</span>
+                    </div>
+                    <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Phone</div>
+                        <span>(+84) 393 491 710</span>
+                    </div>
+                    <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Email</div>
+                        <span>phuongleph.work@gmail.com</span>
+                    </div>
+                    <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Location</div>
+                        <span>Ho Chi Minh City, Viet Nam</span>
+                    </div>
                 </div>
             </div>
         </div>
