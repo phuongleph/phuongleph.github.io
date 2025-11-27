@@ -1,11 +1,6 @@
 
 
 
-
-
-# Clone this repository
-$ git clone https://github.com/karlgrossmann/two-column-portfolio
-
 # Go into the repository
 $ cd two-column-portfolio
 
