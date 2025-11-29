@@ -7,6 +7,7 @@ import Skills from "@/components/skills/skills";
 import Projects from '@/components/projects/projects';
 import Credits from '@/components/credits';
 import Resume from '@/components/resume/resume';
+import Snow from "@/components/snow";
 import { promises as fs } from 'fs';
 
 export default async function Home() {
@@ -35,9 +36,9 @@ export default async function Home() {
         Projects data = { data.projects }
         /> <
         Credits data = { data.general }
-        /> <
-        /div> <
-        /div> <
-        /main>
+        /> < /
+        div > <
+        /div><Snow / > < /
+        main >
     )
 }

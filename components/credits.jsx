@@ -21,6 +21,14 @@ const Credits = (props) => {
                         <span>phuongleph.work@gmail.com</span>
                     </div>
                     <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Github</div>
+                        <span href="">github.com/phuongleph</span>
+                    </div>
+                    <div>
+                        <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Linkedin</div>
+                        <span href="">linkedin.com/in/phuongleph</span>
+                    </div>
+                    <div>
                         <div className='font-semibold text-surface-400 text-xs uppercase tracking-wider mb-1'>Location</div>
                         <span>Ho Chi Minh City, Viet Nam</span>
                     </div>

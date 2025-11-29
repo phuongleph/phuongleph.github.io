@@ -29,7 +29,7 @@
     "experiences": [{
         "title": "Business Development Executive",
         "company": "Shinhan Finance Vietnam",
-        "href": "",
+        "href": "https://shinhanfinance.com.vn",
         "startDate": "April, 2024",
         "endDate": "June, 2025",
         "description": "Delivered end‑to‑end business and client support by managing customer data, optimizing loan processes, and driving workflow improvements to enhance efficiency, compliance, and customer retention.",
@@ -41,7 +41,7 @@
         "subject": "Computer Science",
         "degree": "Bachelor of Science",
         "university": "Ton Duc Thang University",
-        "href": "",
+        "href": "https://tdtu.edu.vn/",
         "startDate": "October, 2021",
         "endDate": "April, 2026",
         "logo": "/logos/logotdt.png"
@@ -113,11 +113,6 @@
             "href": ""
         },
         {
-            "name": "Sciki-learn",
-            "logo": "/logos/skills/scikit_learn_logo_small.svg.png",
-            "href": ""
-        },
-        {
             "name": "Pandas",
             "logo": "/logos/skills/Pandas_logo1.svg.png",
             "href": ""
@@ -129,11 +124,17 @@
         }
     ],
     "projects": [{
+            "name": "End-to-End Financial Risk Assessment System",
+            "framework": "Python, Pandas, Scikit-learn, Power BI, DAX, SQL",
+            "description": "Simulated a comprehensive risk management workflow by processing 10,000+ loan records using Python and Machine Learning. Developed actionable insights via Power BI to forecast default risks, recommending strategies to potentially reduce bad debt exposure by 15%.",
+            "href": "https://github.com/phuongleph/Multi-Task-AI-for-Fin",
+            "image": "/projects/shap_summary.png"
+        }, {
             "name": "Multimodal Financial Trend Prediction with ROI Analysis",
             "framework": "Python, PyTorch ,Transformers, Scikit-learn, Pandas, NumPy, DQN Agents, Matplotlib.",
             "description": "Fusion model combining FinBERT, Transformer, and ATT-CNN LSTM has been trained for multi‑modal crypto trend prediction. Next step: preparing the Reinforcement Learning environment and designing the RL Agent to optimize trading ROI.",
             "href": "https://github.com/phuongleph/Multimodal-Financial-Trend-Prediction-with-ROI-Analysis",
-            "image": "/projects/architect.png"
+            "image": "/projects/confusion_matrix.png"
         },
         {
             "name": " E-commerce Customer Experience Analytics",
@@ -146,8 +147,8 @@
             "name": "Point of Sale (POS) Web Application for Phone Retail Store",
             "framework": "Node.js, Express.js, MongoDB, RESTful API, Postman, HTML/CSS, Bootstrap.",
             "description": "Built a Full-Stack POS system with Node.js/Express and MongoDB, delivering real-time inventory tracking, fast transaction processing, and an admin dashboard for actionable business insights.",
-            "href": "",
-            "image": "/projects/posweb.png"
+            "href": "https://github.com/phuongleph/Point-of-Sale-POS-Web-Application-for-Phone-Retail-Store-with-NodeJs",
+            "image": "/projects/webapp.jpg"
         }
     ]
 }
