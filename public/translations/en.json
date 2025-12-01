@@ -27,15 +27,26 @@
         }
     ],
     "experiences": [{
-        "title": "Business Development Executive",
-        "company": "Shinhan Finance Vietnam",
-        "href": "https://shinhanfinance.com.vn",
-        "startDate": "April, 2024",
-        "endDate": "June, 2025",
-        "description": "Delivered end‑to‑end business and client support by managing customer data, optimizing loan processes, and driving workflow improvements to enhance efficiency, compliance, and customer retention.",
-        "logo": "/logos/shinhanlogo.png",
-        "skills": ["Analysis", "Stakeholder", "Management"]
-    }],
+            "title": "AI Educator – Middle School",
+            "company": "PIAI Technology & Education JSC",
+            "href": "",
+            "startDate": "November, 2025",
+            "endDate": "Current",
+            "description": "Taught middle school students (ages 11–15) fundamental AI concepts and real-world applications. Guided them in exploring AI tools and chatbots, fostering curiosity in STEM, digital literacy, and ethical awareness.",
+            "logo": "/logos/PIAI1.png",
+            "skills": ["STEM Education", "Student Engagement", "Classroom Management"]
+        }, {
+            "title": "Business Development Executive",
+            "company": "Shinhan Finance Vietnam",
+            "href": "https://shinhanfinance.com.vn",
+            "startDate": "April, 2024",
+            "endDate": "June, 2025",
+            "description": "Delivered end‑to‑end business and client support by managing customer data, optimizing loan processes, and driving workflow improvements to enhance efficiency, compliance, and customer retention.",
+            "logo": "/logos/shinhanlogo.png",
+            "skills": ["Analysis", "Stakeholder", "Management"]
+        }
+
+    ],
 
     "education": [{
         "subject": "Computer Science",
@@ -48,7 +59,7 @@
     }],
     "skills": [{
             "name": "Python",
-            "logo": "/logos/skills/python-logo.png",
+            "logo": "/logos/skills/Python-logo.png",
             "href": ""
         },
         {
@@ -61,7 +72,7 @@
             "href": ""
         }, {
             "name": "SQL",
-            "logo": "/logos/skills/sql__logo.png",
+            "logo": "/logos/skills/sql_logo.png",
             "href": ""
         }, {
             "name": "HTML",
